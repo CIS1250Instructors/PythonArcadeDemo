@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" name="my_tiles" tilewidth="128" tileheight="128" tilecount="12" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="1">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/grassLeft.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/grassMid.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/grassRight.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/boxCrate_double.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/grassCliff_left.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/grassCliff_right.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/items/coinGold.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/items/coinBronze.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/items/coinSilver.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/bush.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/cactus.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../platform_tutorial/platform_tutorial/images/tiles/water.png"/>
+  </tile>
+ </tileset>
+ <layer id="2" name="Coins" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi6gGOgHTAKRsEooAkYzdujgN6AkwZ6yDGTEgAAahQALA==
+  </data>
+ </layer>
+ <layer id="3" name="Foreground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGATrgIVJssAAAF2AAGQ==
+  </data>
+ </layer>
+ <layer id="4" name="Background" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAT7ATaYcPQEAFLQAFw==
+  </data>
+ </layer>
+ <layer id="5" name="Don't Touch" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuAArFA9FO9iAmBkNs9PAnlFAHqBlukKOe3LinJWBdumSkLnk2EmsW7HlicGaL2gZB7QGQ9XdMECp23Hpx5b2qI0Bm+YA+A==
+  </data>
+ </layer>
+</map>
